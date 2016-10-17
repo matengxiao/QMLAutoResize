@@ -26,5 +26,22 @@ Rectangle {
             text: qsTr("Test")
         }
     }
+    Text {
+        id: name
+        //anchors.centerIn: parent
+        text: qsTr("FontSizeTest")
+    }
+//    ListView{
+//        width: 100
+//        height: 100
+//        model: 3
+//        delegate: Rectangle{
+//            height: 30
+//            anchors.fill: parent
+//            Text{
+//                text:index
+//            }
+//        }
+//    }
 }
 
